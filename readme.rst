@@ -4,12 +4,10 @@ Steps of installation
 **Dev. Environment**
 ----------------
 
-Step 1 : Clone
+Step 1 : Clone or Download
 ----------------
 
-      
-
-git clone
+git clone https://github.com/kshamlani/sequential-parallel-processing.git
 
 
 
@@ -23,7 +21,7 @@ First create a database in your local environment "template". Then configure the
 	'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => 'root',
-	'database' => 'template',
+	'database' => 'sequential_parallel_processing',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
@@ -40,31 +38,18 @@ First create a database in your local environment "template". Then configure the
 	'save_queries' => TRUE
 );
 
+P.S. make sure your database name is same as above defined
 
-
-Step 3 : Open web page
+Step 3 : Change project url to your localhost folder
 ----------------
 
 Open the following url in the browser and this should create the database from migrations:
 
-    http://localhost/template/www/
+   e.g. http://localhost/sequential_parallel_processing/www/
 
+   make sure your project folder name is sequential_parallel_processing,
+   - if you want to change the folder name, make sure to make name changes in following files
+     - index.php
+	 - www/.htaccess
+	 - application/config/config.php
 
-
-Step 4 : APIs
-----------------
-
-The Apis are available at :
-
-    http://test.test.com/docs/XXXXX
-
-API DOC Repository
-
-    https://bitbucket.org/test/XXXX
-
-Step 5 : Postman collection
-----------------
-
-The postman collection is available here:
-
-http://test.test.com/docs/XXXX.json
