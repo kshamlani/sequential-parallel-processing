@@ -45,11 +45,11 @@ Step 3 : Change project url to your localhost folder
 
 Open the following url in the browser and this should create the database from migrations:
 
-   e.g. http://localhost/sequential_parallel_processing/www/
+e.g. http://localhost/sequential_parallel_processing/www/
 
-   make sure your project folder name is sequential_parallel_processing,
-   - if you want to change the folder name, make sure to make name changes in following files
-     - index.php
-	 - www/.htaccess
-	 - application/config/config.php
+make sure your project folder name is sequential_parallel_processing,
+- if you want to change the folder name, make sure to make name changes in following files
+	- index.php
+	- www/.htaccess
+	- application/config/config.php
 
