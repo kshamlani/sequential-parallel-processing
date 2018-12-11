@@ -1,0 +1,11 @@
+*.swp
+*/*.DS_Store
+*.idea
+*.svn
+*/logs/log-*.php
+*/logs/!index.html
+*/cache/*
+*/cache/!index.html
+CI_phpStorm.php
+DB_active_rec.php
+my_models.php
