@@ -17,6 +17,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $config['google_client_id']         = '174874852077-h0ea1o87rlonp9m79j500fm8fkh65c40.apps.googleusercontent.com';
 $config['google_client_secret']     = 'Js71hOHKVMXwNIFRVhlPu6B8';
 $config['google_redirect_url']      = 'http://localhost/template/www/social/login_google';
-$config['google_application_name']  = 'codeigniter_template';
+$config['google_application_name']  = 'sequential_parallel_processing';
 $config['google_scopes']            = ['email', 'profile'];
 

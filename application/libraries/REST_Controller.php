@@ -662,10 +662,10 @@ abstract class REST_Controller extends CI_Controller {
                 exit;
             }
 
-            $this->response([
-                    $this->config->item('rest_status_field_name') => FALSE,
-                    $this->config->item('rest_message_field_name') => sprintf($this->lang->line('text_rest_invalid_api_key'), $this->rest->key)
-                ], self::HTTP_FORBIDDEN);
+            // $this->response([
+            //         $this->config->item('rest_status_field_name') => FALSE,
+            //         $this->config->item('rest_message_field_name') => sprintf($this->lang->line('text_rest_invalid_api_key'), $this->rest->key)
+            //     ], self::HTTP_FORBIDDEN);
         }
 
         // Check to see if this key has access to the requested controller

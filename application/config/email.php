@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: amitahire
- * Date: 12/5/17
- * Time: 6:12 PM
- */
 $config['protocol'] = "smtp";
 $config['smtp_host'] = "ssl://email-smtp.us-east-1.amazonaws.com";
 $config['smtp_user'] = "AKIAI2F3JGEVH2BPOVVQ";//also valid for Google Apps Accounts

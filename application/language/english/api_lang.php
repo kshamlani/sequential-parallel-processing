@@ -1,10 +1,6 @@
 <?php
 if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /**
- * Created by PhpStorm.
- * User: amitahire
- * Date: 16/5/17
- * Time: 11:04 AM
  * Name: APIs Language - English
  * Description: APIs language file for all APIs
  */
@@ -18,7 +14,7 @@ $lang['token_expired'] = "Token is expired";
 $lang['data_empty'] = "No data found";
 
 // Auth Group Messages
-$lang['welcome'] = "Welcome to Codeigniter Template";
+$lang['welcome'] = "Welcome to Sequential & Parallel Processing";
 $lang['form_phone_regex'] = "Phone number should be in this format +XX-XXXXXXXXXX";
 $lang['user_group_invalid'] = "User group is Invalid";
 $lang['login_type_invalid'] = "Login type is Invalid";
@@ -54,4 +50,23 @@ $lang['social_valid_fail'] = "Social token is not valid";
 $lang['social_extra_param_call'] = "Incomplete Params";
 $lang['different_login_type'] = "You are registered with social media";
 $lang['registered_success'] = "Registered Successfully";
+
+$lang['please_enter'] = "Please enter the %s.";
+$lang['please_select'] = "Please select %s.";
+$lang['add_success'] = "%s added successfully.";
+$lang['add_fail'] = "Unable to add %s.";
+$lang['submit_success'] = "%s submitted successfully.";
+$lang['submit_fail'] = "Unable to submit %s.";
+$lang['update_success'] = "%s updated successfully.";
+$lang['update_fail'] = "Unable to update %s.";
+$lang['delete_success'] = "%s deleted successfully.";
+$lang['delete_fail'] = "Unable to delete %s.";
+$lang['missing'] = "%s is missing.";
+$lang['already_exists'] = "%s already exists.";
+$lang['alpha_only'] = "%s must contain only characters.";
+$lang['numbers_only'] = "%s must contain only numbers.";
+$lang['alpha_numeric_only'] = "%s must contain only numbers & characters.";
+$lang['alpha_numeric_spaces_only'] = "%s must contain only numbers, characters & space.";
+$lang['valid_email'] = "please enter valid email for %s.";
+$lang['invalid_value'] = "Invalid %s selected.";
 

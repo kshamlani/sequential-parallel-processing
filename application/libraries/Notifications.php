@@ -1,12 +1,5 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-/**
- * Created by PhpStorm.
- * User: amitahire
- * Date: 5/7/17
- * Time: 12:17 PM
- */
-
 require_once APPPATH."third_party/aws/vendor/autoload.php";
 use Aws\Sns\SnsClient;
 use Aws\Sns\Exception\SnsException;

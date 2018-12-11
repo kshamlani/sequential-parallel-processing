@@ -47,9 +47,9 @@ if($config['developer_mode_on']){
  * Admin and developer details
  */
 
-$config['admin_contact_email']="contact@iglulabs.com";
-$config['admin_contact_name']="IgluLabs Admin";
-$config['debug_notification_email']="contact@iglulabs.com";
+$config['admin_contact_email']="contact@test.com";
+$config['admin_contact_name']="Test Admin";
+$config['debug_notification_email']="contact@test.com";
 $config['debug_notification_name']="Developer Sitename";
 
 /*

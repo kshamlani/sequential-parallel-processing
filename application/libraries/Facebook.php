@@ -1,11 +1,5 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-/**
- * Created by PhpStorm.
- * User: amitahire
- * Date: 17/5/17
- * Time: 2:43 PM
- */
 require_once APPPATH.'third_party/facebook/vendor/autoload.php';
 use Facebook\Facebook as FB;
 use Facebook\Authentication\AccessToken;

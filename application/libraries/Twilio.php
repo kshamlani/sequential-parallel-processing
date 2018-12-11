@@ -1,11 +1,5 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-/**
- * Created by PhpStorm.
- * User: amitahire
- * Date: 19/5/17
- * Time: 7:43 PM
- */
 require_once APPPATH.'third_party/twilio/Twilio/autoload.php';
 use Twilio\Rest\Client;
 use Twilio\Jwt\AccessToken;

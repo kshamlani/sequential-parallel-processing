@@ -1,11 +1,5 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-/**
- * Created by PhpStorm.
- * User: amitahire
- * Date: 18/5/17
- * Time: 10:20 AM
- */
 require_once APPPATH.'third_party/stripe/vendor/autoload.php';
 
 

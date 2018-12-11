@@ -50,5 +50,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['default_controller'] = 'welcome';
+$route['flights'] = 'welcome';
+$route['flights/view'] = 'api/v1/flightStore';
+$route['flights/add'] = 'api/v1/flightStoreForm';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

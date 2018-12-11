@@ -17,13 +17,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$base_url = 'http://localhost/template/www/';
+$base_url = 'http://localhost/sequential_parallel_processing/www/';
 if(ENVIRONMENT == "development"){
-    $base_url = 'http://localhost/template/www/';
+    $base_url = 'http://localhost/sequential_parallel_processing/www/';
 } else if(ENVIRONMENT == "testing"){
-    $base_url = 'http://test.iglulabs.com/template/www/';
+    $base_url = 'http://test.test.com/template/www/';
 } else if(ENVIRONMENT == "production"){
-    $base_url = 'http://test.iglulabs.com/template/www/';
+    $base_url = 'http://test.test.com/template/www/';
 }
 $config['base_url'] = $base_url;
 

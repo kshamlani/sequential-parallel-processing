@@ -1,12 +1,5 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-/**
- * Created by PhpStorm.
- * User: amitahire
- * Date: 23/5/17
- * Time: 4:35 PM
- */
-
 Class FileHandler
 {
     /**

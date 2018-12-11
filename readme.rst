@@ -56,15 +56,15 @@ Step 4 : APIs
 
 The Apis are available at :
 
-    http://test.iglulabs.com/docs/XXXXX
+    http://test.test.com/docs/XXXXX
 
 API DOC Repository
 
-    https://bitbucket.org/iglulabs/XXXX
+    https://bitbucket.org/test/XXXX
 
 Step 5 : Postman collection
 ----------------
 
 The postman collection is available here:
 
-http://test.iglulabs.com/docs/XXXX.json
+http://test.test.com/docs/XXXX.json
