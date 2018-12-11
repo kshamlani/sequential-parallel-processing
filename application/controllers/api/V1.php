@@ -313,6 +313,7 @@ class V1 extends REST_Controller
         $data['total_flights'] = count($data['flight_details']);
         $data['total_delayed_flights'] = count($data['delayed_flights']);
 
+        $data['searched'] = $paramWhere;
         if ($data) {
             $message = $this->lang->line('success');
             $code = 200;

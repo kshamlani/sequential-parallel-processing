@@ -126,12 +126,14 @@
                 <div class="col-md-6">
                     <div class="form-group">
                         <label for="cancellation">Cancellation:</label>
-                        <div class="radio">
-                            <label><input type="radio" name="cancellation" value="no" checked>No</label>
-                        </div>
-                        <div class="radio">
-                            <label><input type="radio" name="cancellation" value="yes">Yes</label>
-                        </div>
+                        <p>
+                            <div class="radio-inline">
+                                <label><input type="radio" name="cancellation" value="no" checked>No</label>
+                            </div>
+                            <div class="radio-inline">
+                                <label><input type="radio" name="cancellation" value="yes">Yes</label>
+                            </div>
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-6">

@@ -18,9 +18,55 @@
         line-height: 1.5;
         font-family: "Roboto", sans-serif;
     }
+
+    input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button { 
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        margin: 0; 
+    }
+
+    .button {
+        transition: all .3s linear;
+        margin-top: -5px;
+    }
+
+    .button:hover {
+        background-color: #007aff;
+        color: #fff;
+        border: 1px solid #fff;
+    }
     </style>
 <body>
-<!-- <?php print_r($data);?> -->
+    <div class="container">
+        <div class="col-md-12">
+            <form action="<?php echo base_url(); ?>flights/view" method="GET" id="search_form">
+                <div class="col-md-5">
+                    <label for="month_select">Select Month:</label>
+                    <select class="form-control" name="month" id="month_select">
+                        <option value="0" selected>None</option>
+                        <?php for($i=1;$i<=12;$i++){?>
+                        <option value="<?php echo $i; ?>" <?php if(isset($data['searched']['flight_store.month']) && $data['searched']['flight_store.month'] == $i){echo 'selected';}; ?>><?php echo $i; ?></option>
+                        <?php } ?>
+                    </select>
+                </div>
+                <div class="col-md-5">
+                    <div class="form-group">
+                        <label for="year_select">Enter Year:</label>
+                        <input type="number" name="year" class="form-control" id="year_select" placeholder="Enter Year" value="<?php if(isset($data['searched']['flight_store.year'])){echo $data['searched']['flight_store.year'];}; ?>">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="search_submit"></label><p></p>
+                        <input type="submit" id="search_flight_form" class="button btn btn-default" value="Search">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
     <div class="container">
         <h2>All Flight Details</h2>
         <div class="table-responsive">
